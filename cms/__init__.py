@@ -11,7 +11,7 @@ app.config['SECRET_KEY'] = 'b2de7FkqvkMyqzNFzxCkgnPKIGP6i4Rc'
 #!
 
 ## Models
-db.itin_app(app)
+db.init_app(app)
 #!
 
 ## Admin Routes
