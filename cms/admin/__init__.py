@@ -57,7 +57,7 @@ def edit(id):
         content.slug = request.form['slug']
         content.type_id = request.form['type_id']
         content.body = request.form['body']
-        content.update_at = datetime.utcnow()
+        content.updated_at = datetime.utcnow()
         error = None
 
         if not request.form['title']:
