@@ -22,7 +22,7 @@ def create(type):
     if requested_type(type):
         if request.method == 'POST':
             title = request.form['title']
-            Slug = request.form['slug']
+            slug = request.form['slug']
             type_id = request.form['type_id']
             body = request.form['body']
             error = None # to validate this form on server side
