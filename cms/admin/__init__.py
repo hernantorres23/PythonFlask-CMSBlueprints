@@ -70,7 +70,7 @@ def edit(id):
         flash(error)
 
 
-    return render_template('admin/content_form.html', types=types, title='Edit', item_title=content.title, slug=content.slug,type_name=type.name, type_id=content,type_id, body=content.body)
+    return render_template('admin/content_form.html', types=types, title='Edit', item_title=content.title, slug=content.slug,type_name=type.name, type_id=content.type_id, body=content.body)
 
 @admin_bp.route('/users')
 def users():
